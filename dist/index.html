@@ -61,7 +61,7 @@
 
        <!-- bg-image -->
 
-       <div class="md:bg-cover bg-center bg-no-repeat mt-10 w-[94rem] h-[30rem] m-2"  
+       <div class="hidden md:block bg-img bg-cover bg-center bg-no-repeat mt-10 w-[94rem] h-[30rem] m-2"  
           style="background-image: url('./assets/Highlight-M365.jpg')">
             
           <div class="flex flex-col gap-y-4 relative top-36 left-32">
@@ -83,10 +83,41 @@
        </div>
 
      <!-- mobile view -->
+     <div class="md:hidden flex flex-col gap-y-4 justify-center gap-x-10 p-10 ">
+        <div class="flex flex-col items-center">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&amp;hei=40" loading="lazy" width="40" height="40" alt="" class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Choose your Microsoft 365" data-bi-ecn="Choose your Microsoft 365" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List">
+             <a class="text-blue-700 font-semibold underline" href="#">
+                Choose your Microsoft 365
+            </a>
+            </div>
+        
+        <div class="flex flex-col items-center">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/surface-go2-link-list-120x120?wid=40&amp;hei=40" loading="lazy" width="40" height="40" alt="" class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Explore Surface devices" data-bi-ecn="Explore Surface devices" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List">
+            <a class="text-blue-700 font-semibold underline" href="#">
+                Explore Surface devices
+            </a>
+        </div>
+        
+        <div class="flex flex-col items-center">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/xbox-blk-logo-link-list-120x120?wid=40&amp;hei=40" loading="lazy" width="40" height="40" alt="" class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Buy Xbox games and consoles" data-bi-ecn="Buy Xbox games and consoles" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List">
+            <a class="text-blue-700 font-semibold underline" href="#">
+                Buy Xbox games and consoles
+            </a>
+        </div>
+    
+        <div class="flex flex-col items-center">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&amp;hei=40" loading="lazy" width="40" height="40" alt="" class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Get Windows 11" data-bi-ecn="Get Windows 11" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List">
+            <a class="text-blue-700 font-semibold underline" href="#">
+                Get Windows 11
+            </a>
+        </div>
+       
+       
+    </div>
     
        <!-- laptop view -->
 
-<div class="md:flex justify-center gap-x-10 p-10">
+<div class="hidden md:flex justify-center gap-x-10 p-10">
     <div class="flex flex-col items-center">
         <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&amp;hei=40" loading="lazy" width="40" height="40" alt="" class="img-fluid flex-shrink-0 mb-2" data-bi-cn="Choose your Microsoft 365" data-bi-ecn="Choose your Microsoft 365" data-bi-bhvr="0" data-bi-ct="CTA" data-bi-pa="Body" data-bi-compnm="Link List">
          <a class="text-blue-700 font-semibold underline" href="#">
@@ -118,9 +149,59 @@
    
 </div>
 
+  <!-- mobile-view -->
+
+  <div class="md:hidden flex flex-col gap-y-10 p-10">
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/Laptop-5.webp">
+        <h1 class="font-bold text-2xl">Surface Laptop 5</h1>
+        <p class="w-80">Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, 
+            with Windows 11.</p>
+        
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Learn more</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/gldn-XSS.jpg">
+        <h1 class="font-bold text-2xl">Xbox Series S</h1>
+        <p class="w-80">Next-gen performance in the smallest Xbox ever.</p>
+    
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Start your free trial</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/Content-Card.avif" class="w-40">
+        <h1 class="font-bold text-2xl w-72">Announcing the next wave of AI innovation</h1>
+        <p class="w-80">The new Microsoft Bing and Edge will soon feature more visual search 
+            responses, chat history, and persistent chat within Edge. We’re also adding actions 
+            to help people complete tasks.</p>
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Learn more about it</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/game.avif" class="w-40">
+        <h1 class="font-bold text-2xl">Xbox Game Pass Ultimate</h1>
+        <p class="w-80">Xbox Live Gold and hundreds of high-quality console and PC games. 
+            Play together with friends and discover your next favourite game.</p>
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Join now</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+</div>
+
   <!-- laptop view -->
 
-<div class="md:flex justify-center gap-x-8 p-10">
+<div class="hidden md:flex justify-center gap-x-8 p-10">
     <div class="flex flex-col gap-y-4">
         <img class="w-80" src="./assets/Laptop-5.webp">
         <h1 class="font-bold text-2xl">Surface Laptop 5</h1>
@@ -171,10 +252,29 @@
 
 <!-- hero-windows-11-bg-image -->
 
-<div class="bg-cover bg-center bg-no-repeat mt-10 w-[94rem] h-[30rem] m-2 p-10"  
+<!-- mobile-view -->
+
+<div class="md:hidden flex flex-col gap-y-10 justify-center items-center">
+  <div>
+        <img class="w-80" src="./assets/Highlight-Hero-Windows11-mobile.jpg">
+  </div>
+
+  <div class="flex flex-col gap-y-4">
+    <h1 class="font-semibold text-xl w-60">Designed for life today – and tomorrow</h1>
+    <p class="w-80">The next-generation of games. Your goals. Friends and family. 
+        Windows 11 was made to bring you closer to everything you love.
+    </p>
+    <button class="bg-blue-600 rounded-sm w-48 p-2 font-semibold">See if your PC is ready</button>
+
+</div>
+
+</div>
+
+<!-- laptop-view -->
+<div class="hidden md:block bg-cover bg-center bg-no-repeat mt-10 w-[94rem] h-[30rem] m-2 p-10 "  
 style="background-image: url('./assets/Highlight-Hero-Windows11.jpg')">
   
-<div class="text-white flex flex-col gap-y-4 relative top-36 left-32">
+<div class="md:text-white flex flex-col gap-y-4 relative top-36 left-32">
     <h1 class="font-semibold text-3xl w-96">Designed for life today – and tomorrow</h1>
     <p class="w-[25rem]">The next-generation of games. Your goals. Friends and family. 
         Windows 11 was made to bring you closer to everything you love.
@@ -186,8 +286,64 @@ style="background-image: url('./assets/Highlight-Hero-Windows11.jpg')">
 
 
 <!-- for business -->
-<h1 class="md:text-xl font-semibold mt-80 ml-6">For business</h1>
-<div class="md:flex justify-center gap-x-8 p-10">
+
+<!-- mobile-view -->
+
+<!-- <h1 class="md:hidden text-xl font-semibold mt-80">For business</h1> -->
+<div class="flex flex-col gap-y-8 p-10">
+  
+    <div class="flex flex-col gap-y-4 ">
+       
+        <img class="w-80" src="./assets/SurfaceFamilyForBusiness.avif">
+        <h1 class="font-bold text-2xl">Surface for Business</h1>
+        <p class="w-80">No matter what you do, there’s a Surface to help you do it.</p>
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Shop now</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80"  src="./assets/Woman-Teams-Call.webp" class="w-72">
+        <h1 class="font-semibold text-2xl w-60">Try Microsoft 365 for free</h1>
+        <p class="w-80">Get Microsoft Teams, secure cloud storage and premium apps 
+            across devices with a free one-month Microsoft 365 Business Standard trial.</p>
+    
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Start your free trial</button>
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/JIC-DPS-CP01.webp">
+        <h1 class="font-semibold text-2xl w-72">Welcome to your Windows 365 Cloud PC</h1>
+        <p class="w-80">Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+        
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Get it today</button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a> 
+        
+    </div>
+
+    <div class="flex flex-col gap-y-4">
+        <img class="w-80" src="./assets/Windows-11-Business.jpg">
+        <h1 class="font-semibold text-2xl">Windows 11 for business</h1>
+        <p class="w-80">Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+        <a class="text-blue-700" href="#">
+            <button class="font-semibold">Learn more</button>
+            <i class="fa-solid fa-chevron-right"></i>
+          </a> 
+    </div>
+
+
+</div>
+
+<!-- laptop-view -->
+<h1 class="hidden md:block text-xl font-semibold mt-80 ml-6">For business</h1>
+<div class="hidden md:flex justify-center gap-x-8 p-10">
   
     <div class="flex flex-col gap-y-4">
        
@@ -239,7 +395,24 @@ style="background-image: url('./assets/Highlight-Hero-Windows11.jpg')">
 </div>
 
 <!-- social icons -->
-<div class="flex justify-between p-4">
+
+<!-- mobile-view -->
+
+<div class="md:hidden flex flex-col gap-y-2 p-4">
+    <div class="flex items-center gap-x-4">
+        <span class="font-semibold">Follow Microsoft</span>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+
+    <button class="font-semibold bg-gray-300 hover:bg-white border-1 p-2 flex gap-x-2 items-center w-32 ml-32"><i class="fa-solid fa-arrow-up"></i>Back to top</button>
+</div>
+
+
+<!-- laptop-view -->
+
+<div class="hidden md:flex justify-between p-4">
     <div class="flex items-center gap-x-8 ml-14">
         <span class="font-semibold">Follow Microsoft</span>
         <i class="fa-brands fa-facebook fa-lg"></i>
@@ -252,7 +425,99 @@ style="background-image: url('./assets/Highlight-Hero-Windows11.jpg')">
 
 <!-- footer -->
 
-<footer class="md:flex justify-center gap-x-10 p-8 bg-gray-100">
+<!-- mobile-view -->
+
+
+
+<footer class="md:hidden flex flex-col gap-y-8 p-8 bg-gray-100">
+    
+    <div>
+        <h1 class="font-semibold text-gray-700">What's new</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Microsoft 365</li>
+            <li class="hover:text-black hover:underline">Games</li>
+            <li class="hover:text-black hover:underline">Surface Pro 9</li>
+            <li class="hover:text-black hover:underline">Surface Laptop 5</li>
+            <li class="hover:text-black hover:underline">Surface Laptop Studio</li>
+            <li class="hover:text-black hover:underline">Surface Laptop Go 2</li>
+            <li class="hover:text-black hover:underline">Windows 11 apps</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="font-semibold text-gray-700">Microsoft Store</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Account profile</li>
+            <li class="hover:text-black hover:underline">Download Center</li>
+            <li class="hover:text-black hover:underline">Microsoft Store Support</li>
+            <li class="hover:text-black hover:underline">Returns</li>
+            <li class="hover:text-black hover:underline">Order tracking</li>
+           
+        </ul>
+    </div>
+
+    <div >
+        <h1 class="font-semibold text-gray-700">Education</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Microsoft in education</li>
+            <li class="hover:text-black hover:underline">Devices for education</li>
+            <li class="hover:text-black hover:underline">Microsoft Teams for Education</li>
+            <li class="hover:text-black hover:underline">Microsoft 365 Education</li>
+            <li class="hover:text-black hover:underline">Office Education</li>
+            <li class="hover:text-black hover:underline">Educator training and development</li>
+            <li class="hover:text-black hover:underline">Deals for students and parents</li>
+            <li class="hover:text-black hover:underline">Azure for students</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="font-semibold text-gray-700">Business</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Microsoft Cloud</li>
+            <li class="hover:text-black hover:underline">Microsoft Security</li>
+            <li class="hover:text-black hover:underline">Azure</li>
+            <li class="hover:text-black hover:underline">Dynamics 365</li>
+            <li class="hover:text-black hover:underline">Microsoft 365</li>
+            <li class="hover:text-black hover:underline">Microsoft Advertising</li>
+            <li class="hover:text-black hover:underline">Microsoft Industry</li>
+            <li class="hover:text-black hover:underline">Microsoft Teams</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="font-semibold text-gray-700">Developer & IT</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Developer Center</li>
+            <li class="hover:text-black hover:underline">Documentation</li>
+            <li class="hover:text-black hover:underline">Microsoft Learn</li>
+            <li class="hover:text-black hover:underline">Microsoft Tech Community</li>
+            <li class="hover:text-black hover:underline">Azure Marketplace</li>
+            <li class="hover:text-black hover:underline">AppSource</li>
+            <li class="hover:text-black hover:underline">Microsoft Power Platform</li>
+            <li class="hover:text-black hover:underline">Visual Studio</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1 class="font-semibold text-gray-700">Company</h1>
+        <ul class="flex flex-col gap-y-2 mt-2 text-gray-700">
+            <li class="hover:text-black hover:underline">Careers</li>
+            <li class="hover:text-black hover:underline">About Microsoft</li>
+            <li class="hover:text-black hover:underline">Company news</li>
+            <li class="hover:text-black hover:underline">Privacy at Microsoft</li>
+            <li class="hover:text-black hover:underline">Investors</li>
+            <li class="hover:text-black hover:underline">Security</li>
+            <li class="hover:text-black hover:underline">Sustainability</li>
+        </ul>
+    </div>
+
+ 
+  
+</footer>
+
+<!-- laptop-view -->
+
+<footer class="hidden md:flex justify-center gap-x-10 p-8 bg-gray-100">
     
     <div>
         <h1 class="font-semibold text-gray-700">What's new</h1>
