@@ -538,20 +538,16 @@ video {
   position: relative;
 }
 
+.-left-4 {
+  left: -1rem;
+}
+
 .left-32 {
   left: 8rem;
 }
 
 .top-36 {
   top: 9rem;
-}
-
-.-left-2 {
-  left: -0.5rem;
-}
-
-.-left-4 {
-  left: -1rem;
 }
 
 .m-0 {
@@ -570,11 +566,6 @@ video {
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .mb-2 {
@@ -615,18 +606,6 @@ video {
 
 .mt-80 {
   margin-top: 20rem;
-}
-
-.-ml-2 {
-  margin-left: -0.5rem;
-}
-
-.-ml-4 {
-  margin-left: -1rem;
-}
-
-.-ml-10 {
-  margin-left: -2.5rem;
 }
 
 .flex {
