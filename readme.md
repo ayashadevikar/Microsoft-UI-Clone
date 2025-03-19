@@ -1,6 +1,6 @@
 ## Microsoft-UI-Clone
 
-[Live Link](https://microsoft-ui-clone-tailwindcss.netlify.app/)
+[Live Link](https://microsoft-ui-clone-btph.vercel.app/)
 
 ## my output
 
